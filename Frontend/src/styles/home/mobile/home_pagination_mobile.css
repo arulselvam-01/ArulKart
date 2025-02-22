@@ -1,0 +1,18 @@
+@media (max-width : 900px) {
+    .previous_page, .next_page{
+        font-size: 10px;
+        background-color: var(--secondary_color);
+        border-width: 1px;
+        border-radius: 3px;
+        padding: 3px 5px;
+    }
+
+    .page_box{
+        padding: 3px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-radius: 3px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+@media (max-width : 900px) {
+    .view_order_containner{
+        width: 95%;
+        height: 90%;
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .sell_product_no_orders{
+        font-size: 20px;
+    }
+
+    .vo_table{
+        margin-top: 50px;
+    }
+
+    .vo_th{
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    
+    .vo_td{
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+}

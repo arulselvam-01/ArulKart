@@ -1,0 +1,29 @@
+@media (max-width : 900px){
+
+    .profile_info_containner{
+        border-radius: 10px;
+        padding: 15px;
+        border: none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 0px;
+    }
+
+    .email_label, .email_content, .password_label, .password_content{
+        font-size: 15px;
+    }
+
+    .profile_change_password{
+        font-size: 13px;
+    }
+
+    #profile_ph_no, #pincode, #state, #district, #landmark, #address{
+        font-size: 12px;
+    }
+
+    .delete_account_ack{
+        padding: 10px;
+        width: 90%;
+    }
+
+
+}

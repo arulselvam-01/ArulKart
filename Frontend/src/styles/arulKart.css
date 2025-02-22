@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+.message_window{
+    min-height: 100px;
+    min-width: 400px;
+    background-color: white;
+    position: fixed;
+    right: -450px;
+    bottom: 10px;
+    border: 3px solid var(--danger);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 8px 0pc 0pc 8px;
+    padding: 10px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+
+.good_message{
+    right: 0px;
+    border-color: var(--dark_color);
+    background-color: var(--light_color);
+    
+}
+
+.bad_message{
+    right: 0px;
+    border-color: var(--danger);
+    background-color: var(--light-danger);
+    color: var(--danger);
+    font-weight: 600;
+}
+
+.loading_con{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+
+.loading{
+    width: 50px;
+    height: 50px;
+    border: 8px solid #dfdfdf;
+    border-top: 8px solid var(--dark_color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    outline: 1px solid rgba(88, 88, 88, 0.445);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+@media (max-width : 900px) {
+
+    .message_window{
+        min-width: 60% ;
+        min-height: 80px ;
+        font-size: 12px;
+    }
+    
+    
+}

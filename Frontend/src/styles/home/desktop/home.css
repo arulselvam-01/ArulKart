@@ -1,0 +1,47 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+.home_canvas{
+    height: 100%;
+}
+
+.home_typing_effect{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.692);
+    margin: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.product_filter_and_display_product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    border-top: 2px solid rgba(128, 128, 128, 0.377);
+    border-radius: 20px;
+    width: 100vw;
+}
+
+.no_product_found{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    color: grey;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+
+

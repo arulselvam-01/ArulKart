@@ -1,0 +1,23 @@
+body, html{
+    height: 100%;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex : 1;
+    height: 100%;
+}
+
+
+.page404{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+}

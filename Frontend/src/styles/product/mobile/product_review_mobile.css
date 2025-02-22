@@ -1,0 +1,50 @@
+@media (max-width : 900px) {
+    .ratings_heading{
+        font-size: 17px;
+        margin-top: 0px;
+    }
+
+    .review_containner{
+        padding: 10px;
+    }
+
+    .star_hover_and_comment{
+        margin-right: 10px;
+    }
+
+    .rate_button{
+        font-size: 15px;
+        padding: 5px 10px ;
+        height: 30px;
+        width: 80px;
+        border-width: 1px;
+        border-radius: 3px;
+    }
+
+    .stars{
+        width: 100px !important;
+        height: 19px !important;
+    }
+
+    #review_input{
+        font-size: 15px;
+    }
+
+    #review_input::placeholder{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .reviewed_user_containner{
+        padding: 10px;
+    }
+
+    .reviewer_info{
+        margin-left: 15px;
+    }
+
+    .reviewer_name{
+        font-size: 13px;
+    }
+    
+}

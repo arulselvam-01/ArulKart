@@ -1,0 +1,104 @@
+@media (max-width: 900px) {
+
+    .product_filter_and_display_product{
+        margin: 0px auto;
+    }
+    
+    .display_product_parent_containner{
+        padding: 0px;
+    }
+
+    .display_product_containner{
+        gap: 5px;
+        padding: 10px 0px;
+    }
+
+    .product_details_con{
+        border-radius: 3px;
+        padding-bottom: 0px;
+        background-color: rgba(235, 235, 235, 0.445);
+    }
+
+    .product_containner{
+        width: 160px;
+        padding: 5px;
+        border-width: 2px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    .product_image_con{
+        width: 100%;
+        height: 100px;
+        margin: 0px auto;
+    }
+
+    .product_image_con  img:hover{
+        display: inline-block;
+        height: 100px;
+    }
+
+    .product_name{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    
+    .product_description{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    .product_prize_conatinner{
+        font-size: 10px;
+        margin-top: 2px;
+        align-items: center;
+    }
+
+    .prize_strike{
+        margin-left: 5px;
+        font-size: 7px;
+    }
+   
+    .product_seller_name{
+        font-size: 8px;
+        margin-top: 2px;
+    }
+    .product_seller_name span{
+        font-size: 8px;
+    }
+
+    .home_ratings{
+        height: 10px;
+        margin-top: 3px;
+    }
+    
+    .home_ratings span{
+        font-size: 8px;
+    }
+
+    .product_free_delivery{
+        font-size: 8px;
+    }
+
+    .add_cart_and_buy_button{
+        margin-top: 5px;
+    }
+
+    .home_add_to_cart_button{
+        font-size: 8px;
+        padding: 5px 10px;
+        border-width: 1px;
+    }
+    
+    .home_buy_button{
+        font-size: 10px;
+        padding: 5px 18px;
+        border-width: 1px;
+    }
+
+    .product_out_of_stock{
+        font-size: 10px;
+        top: 10px;
+    }
+
+
+}

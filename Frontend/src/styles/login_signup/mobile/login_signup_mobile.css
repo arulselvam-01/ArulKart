@@ -1,0 +1,11 @@
+@media (max-width : 900px) {
+
+    .login_containner{
+        width: 95%;
+    }
+
+    .welcome{
+        font-size: 20px;
+    }
+    
+}

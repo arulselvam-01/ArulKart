@@ -1,0 +1,40 @@
+@media (max-width : 900px) {
+
+    .canvas{
+        padding: 5px;
+    }
+
+    .myinfo_containner{
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    .profile_heading{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .profile{
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile img{
+        padding: 3px;
+    }
+
+    .profile_changle_username_con{
+        margin-top: 10px;
+    }
+
+    .profile_user_name{
+        font-size: 13px;
+    }
+
+    .profile_changle_username_con img{
+    width: 15px;
+}
+
+}

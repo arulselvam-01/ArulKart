@@ -1,0 +1,19 @@
+@media (max-width : 900px) {
+    .sell_products_canvas{
+        margin: 10px;
+    }
+
+    .sell_product_dashboard_heading{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .sell_new_product_button{
+        font-size: 20px;
+        padding: 6px 12px;
+        right: 10px;
+        bottom: 10px;
+        z-index: 1;
+    }
+
+}

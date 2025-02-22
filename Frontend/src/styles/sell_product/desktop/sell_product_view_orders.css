@@ -1,0 +1,82 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+.view_order_containner{
+    margin: 70px auto;
+    border: 3px solid var(--dark_color);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 90%;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    overflow: scroll;
+}
+
+.view_order_close_button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+    color: var(--danger);
+    padding: 5px 12px;
+    font-weight: 600;
+    background-color: var(--light-danger);
+    border-radius: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+
+.sell_product_no_orders{
+  margin: 100px auto;
+  font-size: 25px;
+  font-weight: 600;
+  color: grey;
+}
+
+
+
+
+
+.vo_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .vo_th, .vo_td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .vo_th {
+    background-color: var(--dark_color);
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .vo_td {
+    color: #333;
+  }
+
+  .vo_tr:hover {
+    background-color: #f1f1f1;
+  }

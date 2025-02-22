@@ -1,0 +1,47 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+.home_paging_containner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+    width: 80%;
+    
+}
+
+.previous_page, .next_page{
+    font-size: 20px;
+    background-color: var(--secondary_color);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.page_box{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--dark_color);
+    cursor: pointer;
+}
+
+.current_page_box{
+    background-color: var(--secondary_color);
+}
+
+

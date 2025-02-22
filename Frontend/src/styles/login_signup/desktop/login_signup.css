@@ -1,0 +1,120 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+
+
+.login_containner{
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--primary_color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px auto;
+
+}
+
+
+.welcome{
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--secondary_color);
+    overflow: hidden;
+    color: grey;
+
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.sp{
+    margin-top: 7px;
+    margin-bottom: 20px;
+  }
+  
+
+#email, #password, #confirm_password, #name{
+    display: block;
+    border: 2px solid var(--primary_color);
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    color: grey;
+    margin-top: 10px;
+    border-radius: 7px;
+    outline: none;
+    height: 45px;
+
+}
+
+.bad_input{
+    border-color: var(--danger) !important;
+}
+
+.good_input{
+    border-color: var(--primary_color) !important;
+}
+
+
+.show_password{
+    font-size: 15px;
+}
+
+.show_password input{
+    margin-left: 15px;
+    background-color: var(--primary_color);
+}
+
+.form_signup_button, .form_login_button{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: var(--primary_color);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+
+}
+
+.hover_color:hover{
+    background-color: black;
+    color: var(--dark_color);
+    border: 2px solid var(--dark_color);
+}
+
+.form_signup_button:active, .form_login_button:active{
+    background-color: var(--dark_color);
+    color: black;
+}
+
+.login_page{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: rgb(92, 92, 245);
+}
+
+.signup_page{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: rgb(92, 92, 245);
+}

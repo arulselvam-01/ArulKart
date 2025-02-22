@@ -1,0 +1,189 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+.profile_address_con{
+    border-top: 1px solid var(--dark_color);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.profile_address_heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* edit address */
+.profile_address_heading button{
+    padding: 5px 8px;
+    background-color: var(--secondary_color);
+    border: 2px solid var(--dark_color);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.address_edit_mode_button{
+    background-color: rgb(247, 247, 162) !important;
+    border: 2px solid rgb(230, 230, 3) !important;
+}
+
+.profile_cancel_address_edit{
+    background-color: var(--light-danger) !important;
+    border-color: var(--danger) !important;
+    margin-right: 10px;
+}
+
+/* address */
+
+.profile_ph_no_con{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#profile_ph_no{
+    margin-top: 5px;
+    padding: 8px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+.pincode_state_con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* pincode */
+.profile_pincode_con{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#pincode{
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+/* state */
+
+.profile_state_con{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#state{
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+
+
+.district_landmark_con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* district */
+.profile_district_con{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#district{
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+/* landmark */
+
+.profile_landmark_con{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#landmark{
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+/* address */
+.profile_address_box_con{
+    display: flex;
+    flex-direction: column;
+}
+
+#address{
+    resize: none;
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+    background-color: var(--light_color);
+    cursor: default;
+}
+
+.profile_input_freeze{
+    background-color: white!important;
+    cursor: text;
+}
+
+
+/* -------------------------------- */

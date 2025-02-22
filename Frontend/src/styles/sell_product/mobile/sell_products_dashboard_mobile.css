@@ -1,0 +1,55 @@
+@media (max-width : 500px) {
+
+    .sell_products_score_board{
+        margin-top: 20px;
+    }
+
+    .sell_products_score_board tbody tr td{
+        font-size: 15px;
+    }
+
+    .sell_products_containner{
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    .sold_product_con{
+        width: 160px;
+    }
+
+    .sold_product_image{
+        height: 100px;
+        width: 100%;
+    }
+
+    .sold_product_name, .sold_product_category, .sold_product_prize{
+        font-size: 10px;
+    }
+
+    .sold_product_action_button_con button{
+        font-size: 10px;
+        padding: 3px 6px;
+        border-radius: 2px;
+        border-width: 1px;
+    }
+
+    .sold_product_out_of_stock{
+        font-size: 15px;
+        
+    }
+
+    .sell_product_delete_window{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .sell_product_delete_window p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+
+    
+}

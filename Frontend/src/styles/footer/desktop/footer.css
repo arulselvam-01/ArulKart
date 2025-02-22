@@ -1,0 +1,37 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+
+.footer_containner{
+    width: 100vw;
+    height: 100px;
+    border: 1px solid var(--secondary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+@media (max-width : 500px) {
+    .footer_containner{
+        font-size: 10px;
+        height: 40px;
+    }
+
+}

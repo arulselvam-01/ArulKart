@@ -1,0 +1,332 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+.myinfo_containner{
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 3px solid var(--dark_color);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_heading{
+    font-size: 20px;
+    border-bottom: 1px solid var(--secondary_color);
+    padding-bottom: 10px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.profile_containner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid var(--dark_color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.profile_changle_username_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin: 20px 0px ;
+}
+
+.edit_profile_changle_username_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin: 20px 0px;
+}
+
+.profile_user_name{
+    margin: 20px 0px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 150px;
+    height: 100%;
+    font-weight: 600;
+
+}
+
+.edit_profile_user_name{
+    border: 2px solid var(--secondary_color);
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    font-size: 18px;
+    color: grey;
+}
+
+.edit_profile_user_name:focus{
+    outline-color: var(--secondary_color);
+}
+
+.profile_changle_username_con img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.save_profile_name_button{
+    margin-left: 10px;
+    padding : 3px 10px;
+    background-color: var(--light_color);
+    border: 2px solid var(--dark_color);
+    border-radius: 3px;
+    height: 100%;
+}
+
+.calcel_profile_name_button{
+    margin-left: 10px;
+    padding : 3px 10px;
+    background-color: var(--light-danger);
+    border: 2px solid var(--danger);
+    border-radius: 3px;
+    height: 100%;
+}
+
+.profile_info_containner{
+    background-color: var(--);
+    padding: 30px;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 2px solid var(--dark_color);
+    margin: 20px 0px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.profile_email_con{
+    margin-bottom: 30px;
+}
+
+.email_label{
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email_content{
+    font-size: 18px;
+    color: grey;
+}
+
+.profile_password_con{
+    margin-bottom: 10px;
+}
+
+.password_label{
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.password_content{
+    font-size: 18px;
+    color: grey;
+}
+
+.profile_change_password{
+    padding: 6px 10px;
+    border: 2px solid var(--dark_color);
+    border-radius: 5px;
+    background-color: var(--light_color);
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+.profile_change_password:hover{
+    border-radius: 0px;
+    border-color: var(--secondary_color);
+}
+
+.profile_change_password:active{
+    border: 2px solid var(--dark_color);
+}
+
+.profile_old_password_con{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_old_password{
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+}
+
+
+.profile_new_password_con{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_new_password{
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+}
+
+
+.profile_confirm_password_con{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_confirm_password{
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid var(--dark_color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: grey;
+}
+
+.psp{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.profile_password_cancel_button{
+    padding: 8px 14px;
+    border: 2px solid var(--danger);
+    background-color: var(--light-danger);
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.profile_password_update_button{
+    padding: 8px 14px;
+    border: 2px solid var(--dark_color);
+    background-color: var(--secondary_color);
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.profile_delete_user{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--light-danger);
+    border: 2px solid var(--danger);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--danger);
+    margin: 10px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.3s;
+}
+
+.profile_delete_user:hover{
+    background-color: var(--danger);
+    color: var(--light-danger);
+    border-radius: 0px;
+}
+
+.profile_grey_window{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: none;
+}
+
+.delete_account_ack{
+    background-color: var(--light-danger);
+    padding: 20px;
+    font-size: 20px;
+    color: var(--danger);
+    border-radius: 10px;
+    border: 2px solid var(--danger);
+    display: none;
+    
+}
+
+.show_delete_account_ack{
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.show_delete_account_ack p{
+    margin: 10px 10px 50px 10px;
+
+}
+
+.del_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del_buttons button{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border: 2px solid var(--danger);
+    background-color: var(--light-danger);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.del_buttons button:hover{
+    background-color: var(--danger);
+    color: var(--light-danger);
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+
+.star_containner{
+    display: flex;
+    height: 20px;
+    width: 120px;
+    position: relative;
+}
+
+.star_containner div{
+    opacity: 0;
+    height: 100%;
+    width: 20%;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.star_containner div:last-child{
+    margin-right: 0px;
+}
+
+.stars{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

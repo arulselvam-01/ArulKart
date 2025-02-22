@@ -1,0 +1,53 @@
+:root{
+    --primary_color : rgb(73, 250, 73);
+    --secondary_color : rgb(165, 243, 165);
+    --light_color : rgb(226, 247, 226);
+    --dark_color : rgb(7, 240, 7);
+    --danger : rgb(252, 132, 132);
+    --light-danger : rgb(248, 235, 235);
+    --text-outline: 
+                    -1px -1px 0 black,  /* Top-left shadow */
+                    1px -1px 0 black,   /* Top-right shadow */
+                    -1px 1px 0 black,   /* Bottom-left shadow */
+                    1px 1px 0 black;
+}
+
+
+.sell_products_canvas{
+    margin: 20px;
+}
+
+.sell_product_dashboard_heading{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--secondary_color);
+}
+
+.sell_new_product_button{
+    position: fixed;
+    background-color: var(--dark_color);
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    padding: 9px 20px;
+    border-radius: 50%;
+    border: 2px solid ;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    transition: all 0.3s;
+    /* z-index: 1; */
+}
+
+.sell_new_product_button:hover{
+    cursor: pointer;
+    background-color: var(--secondary_color);
+    border-color: rgba(0, 0, 0, 0.514);
+}
+
+.close_sell_new_product_button{
+    transform: rotate(-135deg);
+    z-index: 1;
+}
+
+
+
+
+

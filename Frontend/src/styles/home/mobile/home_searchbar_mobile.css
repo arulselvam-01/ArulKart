@@ -1,0 +1,34 @@
+@media (max-width: 900px) {
+
+    .search_containner{
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        border-width: 2px;
+        box-shadow: rgba(0, 0, 0, 0.158) 0px 3px 8px;
+    }
+
+    .search_bar{
+        font-size: 15px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    .search_bar::placeholder{
+        font-size: 10px;
+    }
+
+    .search_image{
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+    }
+
+    .no_product_found{
+        font-size: 20px;
+    }
+
+    
+    
+
+}

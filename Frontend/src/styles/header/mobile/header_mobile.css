@@ -1,0 +1,148 @@
+@media (min-width: 501px) and (max-width: 900px) {
+  
+    .nav_containner{
+        left: -100%;
+    }
+
+    .show_nav_containner{
+        left: 0%;
+    }
+
+    .search_image{
+        width: 40px !important;
+    }
+
+    .message_window{
+        right: -600px;
+    }
+    
+    .good_message, .bad_message{
+        right: 0px;
+    }
+
+    .close_button{
+        display: none;
+    }
+}
+
+
+@media (max-width: 900px) {
+    header{
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .left_header{
+        width: 50%;
+        padding: 0px;
+    }
+    
+    .right_header{
+        width: 50%;
+        padding: 0px;
+    }
+
+    .menu_bar {
+        width: 30px;
+        margin-right: 0px;
+    }
+
+    .logo{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .profile_photo{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        border-width: 1px;
+        padding: 1px;
+    }
+    
+
+    .user_name{
+        font-size: 13px;
+        margin-right: 5px;
+        color: grey;
+    }
+
+    .cart{
+        height: 30px;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .cart_products_count{
+        height: 2px;
+        width: 2px;
+        top: -5px;
+        right: -5px;
+        font-size: 8px;
+        padding: 6px 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* nav containner */
+    .nav_containner{
+        width: 80%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .close_button{
+        position: absolute;
+        top: 0px;
+        left: 85%;
+    }
+
+    .nav_profile{
+        display: flex;
+        margin: 0px auto;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .profile_dp{
+        height: 70px;
+        width: 70px;
+    }
+
+    .u_name{
+        font-size: 15px;
+    }
+
+    .nav_links{
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .nav_links li{
+        padding: 5px;
+        padding-left: 5px;
+        margin-top: 25px;
+    }
+
+
+    .login_and_signup_button button{
+        font-size: 10px;
+        padding: 5px 8px;
+        border-width: 2px;
+        border-radius: 4px;
+
+    }
+
+    .close_button{
+        display: none;
+    }
+
+
+
+
+
+
+
+}

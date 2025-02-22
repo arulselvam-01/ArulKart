@@ -1,0 +1,98 @@
+@media (max-width : 900px) {
+
+    .filter_sorting_canvas_containner{
+        padding: 10px;
+        margin: 0px;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .filter_and_category_con{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .home_product_filter_label{
+        font-size: 8px;
+        margin: 0px;
+    }
+
+    .home_product_filter_label select{
+        font-size: 8px;
+        padding: 5px;
+        margin: 0px;
+        width: 70px;
+        width: 100%;
+    }
+    
+    
+    .home_product_category_filter_label{
+        font-size: 8px;
+        margin: 0px;
+        margin-top: 5px;
+        padding: 0px;
+        width: 100%;
+        
+    }
+
+    .home_product_category_filter_label select{
+        font-size: 8px;
+        padding: 5px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .prize_and_go_reset{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+        width: 100%;
+    }
+    
+    .home_product_prize_filter{
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .prize_filter_min_max_con{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .prize_filter_min_max_con input{
+        font-size: 8px;
+        padding: 5px;
+        margin: 0px;
+        width: 46%;
+        border-radius: 2px;
+        padding: 5px;
+    }
+
+
+    .go_and_reset_button{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filter_go_button{
+        margin: 0px;
+        padding: 5px;
+        width: 45%;
+        font-size: 15px;
+    }
+    .filter_reset_button{
+        margin: 0px;
+        padding: 0px;
+        width: 45%;
+        font-size: 15px;
+    }
+
+    
+}
